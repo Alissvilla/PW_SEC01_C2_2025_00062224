@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cien años de Soledad</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1 id="titulo">Cien años de soledad</h1>
+
+    <div class="botones">
+        <button onclick="cambiarOrden()">Cambiar columnas (contenido)</button>
+        <button onclick="cambiarTitulo()">Cambiar título</button>
+        <button onclick="cambiarColor()">Cambiar color de títulos</button>
+        <button onclick="agregarImagen()">Cambiar imagen</button>
+    </div>
+
+    <div class="layout">
+        <div class="datos">
+            <h3>Datos del libro</h3>
+            <ul>
+                <li><strong>Título:</strong> Cien años de soledad</li>
+                <li><strong>Autor:</strong> Gabriel García Márquez</li>
+                <li><strong>Editorial:</strong> Editorial Sudamericana</li>
+                <li><strong>Año de publicación:</strong> 1967</li>
+                <li><strong>ISBN:</strong> 978-84-376-0494-7</li>
+            </ul>
+            <div id="contenedor-imagen">
+                <img id="portada" src="Portada1.jpg" alt="Portada de Cien años de soledad">
+            </div>
+        </div>
+        <div class="derecha">
+            <div class="descripcion">
+                <h3 id="subtitulo">Descripción del libro</h3>
+                <p>
+                    Cien años de soledad narra la historia de la familia Buendía a lo largo de siete generaciones en
+                    el mítico pueblo de Macondo. La novela combina sucesos cotidianos con elementos fantásticos,
+                    creando un universo donde lo real y lo mágico conviven de manera natural. A través de esta saga
+                    familiar, García Márquez explora temas universales como la soledad, el amor, la muerte y el paso
+                    del tiempo, mostrando cómo los destinos de los personajes se repiten de manera cíclica.
+                </p>
+                <p>
+                    La obra refleja también la historia de América Latina, incluyendo episodios de colonización,
+                    guerras y transformaciones sociales, todo narrado con un estilo lleno de simbolismo y metáforas.
+                    Es considerada una de las piezas más representativas del realismo mágico y consolidó a Gabriel
+                    García Márquez como una figura central de la literatura mundial.
+                </p>
+            </div>
+            <div class="contenido">
+                <h3>Contenido del libro</h3>
+                <div class="contenido-columns" id="cols">
+                    <p>
+                        En la primera parte se presenta la fundación de Macondo por José Arcadio Buendía y Úrsula
+                        Iguarán,
+                        así como los primeros conflictos y aventuras de la familia, introduciendo la mezcla de realidad
+                        y
+                        fantasía que caracteriza la novela.
+                    </p>
+                    <p>
+                        En la segunda parte se desarrollan las generaciones siguientes, mostrando cómo los errores y
+                        patrones del pasado se repiten en los descendientes, con historias de amor, traición, poder y
+                        soledad, entrelazadas con hechos históricos y sobrenaturales.
+                    </p>
+                    <p>
+                        En la tercera y última parte, la historia de Macondo y la familia Buendía llega a su
+                        culminación,
+                        revelando el destino final de los personajes y el cierre del ciclo temporal, en un desenlace que
+                        mezcla lo épico con lo poético, consolidando los temas de la soledad y el tiempo cíclico.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
